@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport"
+          content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <link href="./output.css" rel="stylesheet">
+    <title>Brezcasna</title>
+</head>
+<body class="text-white font-inter">
+<header class="absolute top-0 left-0 w-full z-50">
+    <nav role="navigation" aria-label="Glavna navigacija" class="flex items-center justify-around px-6 py-4">
+        <div
+                class="text-xl font-playfair font-bold tracking-wide hover:text-primary hover:scale-125 hover:text-gold cursor-pointer ease-in-out duration-300">
+            Brezčasna Eleganca
+        </div>
+        <button class="menu-toggle hidden" aria-expanded="false" aria-controls="main-menu" aria-label="Odpri navigacijo">
+            <span class="hamburger"></span>
+        </button>
+        <ul id="main-menu" class="hidden md:flex gap-8 text-sm lowercasse font-semibold">
+            <li><a href="index.html"
+                   class="hover:bg-gold p-3 rounded-lg ease-in-out duration-300 hover:text-black">Domov
+            </a></li>
+            <li><a href="kategorije.html"
+                   class="hover:bg-gold p-3 rounded-lg ease-in-out duration-300 hover:text-black">Kategorije
+            </a></li>
+            <li><a href="o-nas.html"
+                   class="hover:bg-gold p-3 rounded-lg ease-in-out duration-300 hover:text-black">O
+                nas</a></li>
+            <li><a href="clanki.html"
+                   class="hover:bg-gold p-3 rounded-lg ease-in-out duration-300 hover:text-black">Članki
+            </a></li>
+            <li><a href="kontakt.html"
+                   class="hover:bg-gold p-3 rounded-lg ease-in-out duration-300 hover:text-black">Kontakt
+            </a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="relative min-h-screen flex items-center justify-center text-center px-4">
+        <div class="absolute inset-0 -z-10 bg-black/40"></div>
+        <img src="assets/img/ozadjespletnestrani.png" alt="Elegantno oblečen moški" class="absolute inset-0 w-full h-full object-cover -z-20">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-5xl md:text-6xl font-playfair font-extrabold leading-tight mb-4">
+                Brezčasna<br>Eleganca
+            </h1>
+            <p class="text-xl md:text-2xl mb-6">Vaš vodnik do popolnega stila</p>
+            <p class="mb-8 max-w-xl mx-auto text-base md:text-lg">
+                Odkrijte skrivnosti elegantnega oblačenja. Od klasične old money elegance do sodobnega sport elegant stila – pomagamo vam najti vaš popolni videz za vsako priložnost.
+            </p>
+            <div>
+                <a href="kategorije.html"
+                   class="inline-block bg-gold text-black font-semibold px-6 py-3 rounded transition-all duration-300 hover:bg-gold-hover hover:scale-110 hover:shadow-xl">
+                    Odkrijte vaš stil
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="text-black">
+        <div class="flex flex-col items-center justify-between *:p-3 ">
+            <h2 class="text-black font-bold text-5xl">
+                Top 3 kategorije stilov
+            </h2>
+            <p class="text-black text-xl">
+                Odkrijte naše najpopularnejše stilske kategorije. Za več možnosti si oglejte vse kategorije.
+            </p>
+            <button>
+                <a href = "kategorije.html"
+                   class="inline-block text-white bg-black hover:bg-gold rounded hover:text-black hover:scale-125 transition duration-300 px-6 py-3 ">Oglej si vse
+                    kategorije</a>
+            </button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10 mx-10">
+            <!-- Blok 1 -->
+            <div class="flex flex-col h-full bg-white shadow hover:scale-105 transition duration-300">
+                <img src="./assets/img/Posnetek%20zaslona%202025-07-17%20163711.png" alt="Brezčasni vsakdan"
+                     class="w-full h-auto object-cover">
+                <div class="p-4 flex flex-col flex-grow">
+                    <h2 class="text-lg font-bold">Brezčasni vsakdan</h2>
+                    <p class="mt-2">Sproščen, samozavesten stil, ki združuje udobje z elegantnimi detajli. Idealen za moškega, ki želi vedno izgledati urejeno brez napora.</p>
+                    <ul class="mt-4 mb-4 space-y-2 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Sproščeno druženje</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Pisarniško okolje</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Športna eleganca</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Poletna eleganca</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Zimska eleganca</span>
+                        </li>
+                    </ul>
+                    <button class="mt-auto bg-black text-white px-4 py-2 w-full rounded hover:scale-105 hover:bg-gold hover:text-black transition duration-300">
+                        Razišči kategorijo
+                    </button>
+                </div>
+            </div>
+
+            <!-- Blok 2 -->
+            <div class="flex flex-col h-full bg-white shadow hover:scale-105 transition duration-300">
+                <img src="./assets/img/Posnetek%20zaslona%202025-07-17%20163736.png" alt="Posebne priložnosti"
+                     class="w-full h-auto object-cover">
+                <div class="p-4 flex flex-col flex-grow">
+                    <h2 class="text-lg font-bold">Posebne priložnosti</h2>
+                    <p class="mt-2">Klasika in izbrana eleganca, kjer vsaka podrobnost izraža spoštovanje do priložnosti. Popolna kombinacija formalnosti in osebnega stila.</p>
+                    <ul class="mt-4 mb-4 space-y-2 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Poroka</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Gala dogodki</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Zmenek</span>
+                        </li>
+                    </ul>
+                    <button class="mt-auto bg-black text-white px-4 py-2 w-full rounded hover:scale-105 hover:bg-gold hover:text-black transition duration-300">
+                        Razišči kategorijo
+                    </button>
+                </div>
+            </div>
+
+            <!-- Blok 3 -->
+            <div class="flex flex-col h-full bg-white shadow hover:scale-105 transition duration-300">
+                <img src="./assets/img/Posnetek%20zaslona%202025-07-17%20163746.png" alt="Poslovna eleganca"
+                     class="w-full h-auto object-cover">
+                <div class="p-4 flex flex-col flex-grow">
+                    <h2 class="text-lg font-bold">Poslovna eleganca</h2>
+                    <p class="mt-2">Eleganca, ki sporoča profesionalnost in avtoriteto. Obleka, ki povečuje tvojo prisotnost in krepi samozavest v poslovnem svetu.</p>
+                    <ul class="mt-4 mb-4 space-y-2 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Razgovor za službo</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Poslovni sestanki</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 w-3 h-3 rounded-full bg-yellow-500 shrink-0"></span>
+                            <span>Javni nastopi</span>
+                        </li>
+                    </ul>
+                    <button class="mt-auto bg-black text-white px-4 py-2 w-full rounded hover:scale-105 hover:bg-gold hover:text-black transition duration-300">
+                        Razišči kategorijo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

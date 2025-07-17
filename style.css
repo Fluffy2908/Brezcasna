@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gold: rgb(230, 180, 34);
+    --color-gold-hover: rgb(214, 152, 26);
+}
+@layer utilities {
+    .font-playfair {
+        font-family: 'Playfair Display', serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .font-tapestry {
+        font-family: 'Tapestry', serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .font-inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+}
