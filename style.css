@@ -4,6 +4,7 @@
     --color-gold: rgb(230, 180, 34);
     --color-gold-hover: rgb(214, 152, 26);
 }
+
 @layer utilities {
     .font-playfair {
         font-family: 'Playfair Display', serif;
@@ -16,6 +17,7 @@
         font-weight: 400;
         font-style: normal;
     }
+
     .font-inter-<uniquifier> {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -23,3 +25,31 @@
     font-style: normal;
     }
 }
+
+@layer components {
+    #menu-toggle .bar:nth-child(1) {
+        top: 0;
+    }
+
+    #menu-toggle .bar:nth-child(2) {
+        top: 0.75rem;
+    }
+
+    #menu-toggle .bar:nth-child(3) {
+        top: 1.5rem;
+    }
+
+    #menu-toggle.open .bar:nth-child(1) {
+        transform: rotate(45deg) translateY(0.75rem);
+    }
+
+    #menu-toggle.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle.open .bar:nth-child(3) {
+        transform: rotate(-45deg) translateY(-0.75rem);
+    }
+}
+
+
