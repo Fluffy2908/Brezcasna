@@ -3,6 +3,7 @@
 @theme {
     --color-gold: rgb(230, 180, 34);
     --color-gold-hover: rgb(214, 152, 26);
+    --breakpoint-xs: 30rem;
 }
 
 @layer utilities {
